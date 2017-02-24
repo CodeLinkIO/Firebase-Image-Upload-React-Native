@@ -18,8 +18,8 @@ const config = {
   authDomain: "<FIREBASE_AUTH_DOMAIN>",
   storageBucket: "<FIREBASE_STORAGE_BUCKET>",
 }
-firebase.initializeApp(config)
-const storage = firebase.storage()
+const app = firebase.initializeApp(config)
+const storage = app.storage()
 
 // Prepare Blob support
 const Blob = RNFetchBlob.polyfill.Blob
