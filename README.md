@@ -136,3 +136,7 @@ write the binary data from the selected image to it.
 
 For Blob type, I find it most stable to encode the binary data with Base64
 first. I hope it will get more stable in future release of `react-native-fetch-blob`
+
+### License 
+
+[MIT License](http://www.opensource.org/licenses/mit-license.php)
